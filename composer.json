@@ -1,0 +1,24 @@
+{
+    "name": "phpinheiros/infrastructure",
+    "type": "library",
+    "description": "Infrastructure for Entities, Repositories, etc",
+    "keywords": ["phpinheiros", "infrastructure"],
+    "homepage": "https://github.com/phpinheiros/",
+    "license": "MIT",
+    "authors": [
+        {"name": "Vinicius de Sa", "email": "viniciusss@me.com"}
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-0": { "Phpinheiros\\Infrastructure\\": "" }
+    },
+    "target-dir": "Phpinheiros/Infrastructure",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
